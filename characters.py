@@ -1,2 +1,3 @@
-for char in "Data Analyst":
-    print(char)
+fruits = ["Apple", "Banana", "Grapes", "Pineapple", "Pomegranate"]
+for fruit in fruits:
+    print(fruit.lower())
