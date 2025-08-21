@@ -12,5 +12,5 @@ for value in products.values():
 for key, value in products.items():
     print("Key:", key, "costs", "value", value)
 print("Total value of all the products is", sum(products.values()))
-print("Most expensive product is",max(products.keys), max(products.values()))
+print("Most expensive product is", max(products.values()))
 max_product = max(products, key=products.get)
