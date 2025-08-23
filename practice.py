@@ -1,37 +1,9 @@
-library = {
-    "book1": {
-        "title": "Python Crash Course",
-        "author": "Eric Matthes",
-        "year": 2015,
-        "rating": 4.7,
-        "tags": ["Python", "Beginner", "Programming"]
-    },
-    "book2": {
-        "title": "Machine Learning Basics",
-        "author": "John Doe",
-        "year": 2018,
-        "rating": 4.5,
-        "tags": ["AI", "ML", "Beginner"]
-    },
-    "book3": {
-        "title": "Data Analytics Pro",
-        "author": "Jane Smith",
-        "year": 2020,
-        "rating": 4.6,
-        "tags": ["Data", "Python", "Analytics"]
-    }
-}
+x = -12.345
+numbers = [10, 20, 5, 100, 50]
 
-print(f"details of each book {library ['book1']}")
-print(f"details of each book {library ['book2']}")
-print(f"details of each book {library ['book3']}")
-
-for key, value in library.items():
-    if isinstance (value, dict):
-        print(f"{key}")
-    for sub_key, sub_value in value.items():
-        print(f"title {value ['title']}")
-        print(f"author {value ['author']}")
-        print(f"year {value ['year']}")
-        print(f"ratings {value ['rating']}")
-        print(f"tags {value ['tags']}")
+print("Absolute value of x:", abs(x:.2f))
+print("Rounded x to 2 decimals:", round(x, 2))
+print("Maximum number:", max(numbers))
+print("Minimum number:", min(numbers))
+print("Sum of all numbers:", sum(numbers))
+print("2 to the power of 5:", pow(2, 5))
